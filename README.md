@@ -41,15 +41,6 @@ Both modes use SillyTavern's normal generation pipeline, so your API settings, s
 
 The button is only shown on the last message when it belongs to the AI. While any generation is in progress the icon spins; clicking it again will show a warning instead of starting a second generation.
 
-## Settings
-
-Saved per-user in SillyTavern's extension settings:
-
-| Setting | Default | Description |
-|---|---|---|
-| Default batch size | `3` | Value pre-filled in the batch modal |
-| Show progress bar | on | Toggle the progress bar during batch runs |
-
 ## Translations
 
 Translation files live in `i18n/`. English (`en.json`) is the reference. To add a language, copy it, rename it to your locale code (e.g. `ru.json`), translate the values, and open a PR. Yes these are ai generated, but open an pull request if there are errors.
