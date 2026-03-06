@@ -1,0 +1,15 @@
+{
+    "Swipe pre-generation": "Swipe-Vorgenerierung",
+    "Swipe Pre-generation": "Swipe-Vorgenerierung",
+    "Pre-generating swipes\u2026": "Swipes werden vorgeneriert\u2026",
+    "Stop pre-generation": "Vorgenerierung stoppen",
+    "Generate next swipe in background": "N\u00e4chsten Swipe im Hintergrund generieren",
+    "A generation is already in progress.": "Eine Generierung l\u00e4uft bereits.",
+    "Cannot start pre-generation \u2013 generation already in progress.": "Vorgenerierung kann nicht gestartet werden \u2013 Generierung l\u00e4uft bereits.",
+    "Swipe ready! (${0} total)": "Swipe bereit! (${0} gesamt)",
+    "Pre-generation complete! Generated ${0} swipe(s).": "Vorgenerierung abgeschlossen! ${0} Swipe(s) generiert.",
+    "Number of swipes to pre-generate:": "Anzahl der vorzugenerierenden Swipes:",
+    "Show progress bar": "Fortschrittsbalken anzeigen",
+    "Start": "Starten",
+    "Cancel": "Abbrechen"
+}

@@ -1,0 +1,113 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   Swipe Pregeneration – stylesheet
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Background-generate button in the swipeRightBlock ──────────────────── */
+
+.sp_bg_gen_btn {
+    /* Sit between the swipe_right chevron and the swipes-counter */
+    font-size: 12px;
+    cursor: pointer;
+    align-self: center;
+    pointer-events: auto;
+    opacity: 0.55;
+    color: var(--SmartThemeBodyColor);
+    padding: 1px 4px;
+    border-radius: 3px;
+    transition: opacity 0.15s, color 0.15s;
+    /* Hidden by default; shown via the rules below */
+    display: none;
+    justify-content: center;
+}
+
+/*
+ * Show the button when the last message:
+ *  • has multiple swipes (.swipes_visible), OR
+ *  • is at the last swipe / can trigger a new generation (.last_swipe)
+ */
+.last_mes.swipes_visible .sp_bg_gen_btn,
+.last_mes.last_swipe     .sp_bg_gen_btn {
+    display: flex;
+}
+
+.sp_bg_gen_btn:hover {
+    opacity: 1;
+    color: var(--SmartThemeQuoteColor, var(--SmartThemeBodyColor));
+}
+
+/* Hide while any generation is in progress (body flag set by SillyTavern) */
+body[data-generating="true"] .sp_bg_gen_btn,
+body.hideAllSwipeButtons     .sp_bg_gen_btn {
+    display: none !important;
+}
+
+/*
+ * When OUR background generation is active the button carries .sp_btn_spinning.
+ * The combined selector has higher specificity than the hiding rules above,
+ * so the spinner stays visible even while body[data-generating] is set.
+ */
+body[data-generating="true"] .sp_bg_gen_btn.sp_btn_spinning,
+body.hideAllSwipeButtons     .sp_bg_gen_btn.sp_btn_spinning {
+    display: flex !important;
+}
+
+/* Spinning animation when a background generation is active */
+.sp_btn_spinning {
+    animation: sp_spin 0.9s linear infinite;
+    opacity: 1 !important;
+    color: var(--SmartThemeQuoteColor, var(--SmartThemeBodyColor)) !important;
+}
+
+@keyframes sp_spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+/* ── Freeze (no overlay element; MutationObserver keeps .mes_text intact) ── */
+
+/* ── Progress bar ────────────────────────────────────────────────────────── */
+
+#swipe_pregen_progress_bar {
+    /* Lives between #chat and #form_sheld inside #sheld flex column */
+    flex-shrink: 0;
+    margin: 4px 8px 2px;
+    padding: 6px 10px;
+    background: var(--SmartThemeBlurTintColor, rgba(0, 0, 0, 0.15));
+    border-radius: 6px;
+    font-size: 0.85em;
+    color: var(--SmartThemeBodyColor);
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+#swipe_pregen_progress_bar progress {
+    flex: 1;
+    min-width: 80px;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    accent-color: var(--SmartThemeQuoteColor, cornflowerblue);
+}
+
+#swipe_pregen_progress_bar .sp_pb_title {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+#swipe_pregen_progress_bar .menu_button {
+    font-size: 13px;
+    padding: 3px 6px;
+    flex-shrink: 0;
+}
+
+/* ── Modal ───────────────────────────────────────────────────────────────── */
+
+.sp_modal_content hr {
+    margin: 6px 0 12px;
+    opacity: 0.25;
+}
+
+.sp_modal_content label {
+    user-select: none;
+    cursor: pointer;
+}

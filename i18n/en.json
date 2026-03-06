@@ -1,0 +1,15 @@
+{
+    "Swipe pre-generation": "Swipe pre-generation",
+    "Swipe Pre-generation": "Swipe Pre-generation",
+    "Pre-generating swipes\u2026": "Pre-generating swipes\u2026",
+    "Stop pre-generation": "Stop pre-generation",
+    "Generate next swipe in background": "Generate next swipe in background",
+    "A generation is already in progress.": "A generation is already in progress.",
+    "Cannot start pre-generation \u2013 generation already in progress.": "Cannot start pre-generation \u2013 generation already in progress.",
+    "Swipe ready! (${0} total)": "Swipe ready! (${0} total)",
+    "Pre-generation complete! Generated ${0} swipe(s).": "Pre-generation complete! Generated ${0} swipe(s).",
+    "Number of swipes to pre-generate:": "Number of swipes to pre-generate:",
+    "Show progress bar": "Show progress bar",
+    "Start": "Start",
+    "Cancel": "Cancel"
+}

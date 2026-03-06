@@ -1,0 +1,15 @@
+{
+    "Swipe pre-generation": "\u9884\u751f\u6210\u56de\u590d",
+    "Swipe Pre-generation": "\u9884\u751f\u6210\u56de\u590d",
+    "Pre-generating swipes\u2026": "\u6b63\u5728\u9884\u751f\u6210\u56de\u590d\u2026",
+    "Stop pre-generation": "\u505c\u6b62\u9884\u751f\u6210",
+    "Generate next swipe in background": "\u5728\u540e\u53f0\u751f\u6210\u4e0b\u4e00\u4e2a\u56de\u590d",
+    "A generation is already in progress.": "\u5df2\u6709\u751f\u6210\u4efb\u52a1\u8fdb\u884c\u4e2d\u3002",
+    "Cannot start pre-generation \u2013 generation already in progress.": "\u65e0\u6cd5\u5f00\u59cb\u9884\u751f\u6210\u2014\u2014\u751f\u6210\u4efb\u52a1\u5df2\u5728\u8fdb\u884c\u4e2d\u3002",
+    "Swipe ready! (${0} total)": "\u56de\u590d\u5df2\u5c31\u7eea\uff01\uff08\u5171 ${0} \u4e2a\uff09",
+    "Pre-generation complete! Generated ${0} swipe(s).": "\u9884\u751f\u6210\u5b8c\u6210\uff01\u5df2\u751f\u6210 ${0} \u4e2a\u56de\u590d\u3002",
+    "Number of swipes to pre-generate:": "\u9884\u751f\u6210\u56de\u590d\u6570\u91cf\uff1a",
+    "Show progress bar": "\u663e\u793a\u8fdb\u5ea6\u6761",
+    "Start": "\u5f00\u59cb",
+    "Cancel": "\u53d6\u6d88"
+}

@@ -1,0 +1,15 @@
+{
+    "Swipe pre-generation": "Pr\u00e9-g\u00e9n\u00e9ration de swipes",
+    "Swipe Pre-generation": "Pr\u00e9-g\u00e9n\u00e9ration de swipes",
+    "Pre-generating swipes\u2026": "Pr\u00e9-g\u00e9n\u00e9ration des swipes\u2026",
+    "Stop pre-generation": "Arr\u00eater la pr\u00e9-g\u00e9n\u00e9ration",
+    "Generate next swipe in background": "G\u00e9n\u00e9rer le prochain swipe en arri\u00e8re-plan",
+    "A generation is already in progress.": "Une g\u00e9n\u00e9ration est d\u00e9j\u00e0 en cours.",
+    "Cannot start pre-generation \u2013 generation already in progress.": "Impossible de lancer la pr\u00e9-g\u00e9n\u00e9ration \u2013 une g\u00e9n\u00e9ration est d\u00e9j\u00e0 en cours.",
+    "Swipe ready! (${0} total)": "Swipe pr\u00eat\u00a0! (${0} au total)",
+    "Pre-generation complete! Generated ${0} swipe(s).": "Pr\u00e9-g\u00e9n\u00e9ration termin\u00e9e\u00a0! ${0} swipe(s) g\u00e9n\u00e9r\u00e9(s).",
+    "Number of swipes to pre-generate:": "Nombre de swipes \u00e0 pr\u00e9-g\u00e9n\u00e9rer\u00a0:",
+    "Show progress bar": "Afficher la barre de progression",
+    "Start": "D\u00e9marrer",
+    "Cancel": "Annuler"
+}
